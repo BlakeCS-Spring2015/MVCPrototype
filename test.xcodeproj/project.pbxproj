@@ -14,6 +14,8 @@
 		D3EF860A1A881E440044E501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EF86091A881E440044E501 /* Images.xcassets */; };
 		D3EF860D1A881E440044E501 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3EF860B1A881E440044E501 /* LaunchScreen.xib */; };
 		D3EF86191A881E440044E501 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF86181A881E440044E501 /* testTests.m */; };
+		D3EF86231A8828580044E501 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3EF86221A8828580044E501 /* maxresdefault.jpg */; };
+		D3EF86261A8828AC0044E501 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF86251A8828AC0044E501 /* detailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		D3EF86121A881E440044E501 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EF86171A881E440044E501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3EF86181A881E440044E501 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		D3EF86221A8828580044E501 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		D3EF86241A8828AC0044E501 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		D3EF86251A8828AC0044E501 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,8 @@
 				D3EF86001A881E440044E501 /* AppDelegate.h */,
 				D3EF86011A881E440044E501 /* AppDelegate.m */,
 				D3EF86031A881E440044E501 /* ViewController.h */,
+				D3EF86241A8828AC0044E501 /* detailViewController.h */,
+				D3EF86251A8828AC0044E501 /* detailViewController.m */,
 				D3EF86041A881E440044E501 /* ViewController.m */,
 				D3EF86061A881E440044E501 /* Main.storyboard */,
 				D3EF86091A881E440044E501 /* Images.xcassets */,
@@ -96,6 +103,7 @@
 		D3EF85FC1A881E440044E501 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3EF86221A8828580044E501 /* maxresdefault.jpg */,
 				D3EF85FD1A881E440044E501 /* Info.plist */,
 				D3EF85FE1A881E440044E501 /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EF86081A881E440044E501 /* Main.storyboard in Resources */,
+				D3EF86231A8828580044E501 /* maxresdefault.jpg in Resources */,
 				D3EF860D1A881E440044E501 /* LaunchScreen.xib in Resources */,
 				D3EF860A1A881E440044E501 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				D3EF86051A881E440044E501 /* ViewController.m in Sources */,
 				D3EF86021A881E440044E501 /* AppDelegate.m in Sources */,
 				D3EF85FF1A881E440044E501 /* main.m in Sources */,
+				D3EF86261A8828AC0044E501 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

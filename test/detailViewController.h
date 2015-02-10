@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  detailViewController.h
 //  test
 //
 //  Created by smchamplin16 on 2/8/15.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "detailViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface detailViewController : UIViewController
 
 
 @end
-
